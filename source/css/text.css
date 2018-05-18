@@ -1,9 +1,15 @@
 .all-caps {
     text-transform: uppercase;
 }
+.himom {
+
+}
 .all-good {
     text-wrangler: true;
 }
 ::placeholder {
     color: gray;
+}
+#app {
+    
 }
