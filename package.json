@@ -6,7 +6,7 @@
   "scripts": {
     "my-sass": "node-sass source/css/style.scss source/css/style.css",
     "concat-css": "cat source/css/*.css > build/css/all.css",
-    "autoprefix": "postcss source/css/*.css --use autoprefixer -d build/css/"
+    "autoprefix": "postcss build/css/all.css --use autoprefixer -d build/css/"
   },
   "repository": {
     "type": "git",
